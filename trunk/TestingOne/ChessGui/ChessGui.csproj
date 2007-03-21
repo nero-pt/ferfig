@@ -1,0 +1,211 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.6030"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{F2393AE5-4E7C-44E9-B98D-6EC69462E34C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ChessGui"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = '"$(ProjectDir)..\..\..\..\misc\scripts\proj-post-build.exe" "$(TargetPath)"'
+                RootNamespace = "Chess.Display"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "0"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "0"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "mscorlib"
+                    AssemblyName = "mscorlib"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "F:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "Chess"
+                    AssemblyName = "Chess"
+                    HintPath = "..\..\..\..\assembly\ufe\Chess.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "XProc"
+                    AssemblyName = "XProc"
+                    HintPath = "..\..\..\..\assembly\ufe\XProc.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "BaseIProc"
+                    AssemblyName = "BaseIProc"
+                    HintPath = "..\..\..\..\assembly\ufe\BaseIProc.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "BaseIShell"
+                    AssemblyName = "BaseIShell"
+                    HintPath = "..\..\..\..\assembly\ufe\BaseIShell.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "BaseProc"
+                    AssemblyName = "BaseProc"
+                    HintPath = "..\..\..\..\assembly\ufe\BaseProc.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "BaseShell"
+                    AssemblyName = "BaseShell"
+                    HintPath = "..\..\..\..\assembly\ufe\BaseShell.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "NotificationsProducerUtils"
+                    AssemblyName = "NotificationsProducerUtils"
+                    HintPath = "..\..\..\..\assembly\Notifications\NotificationsProducerUtils.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "INotificationsServer"
+                    AssemblyName = "INotificationsServer"
+                    HintPath = "..\..\..\..\assembly\Notifications\INotificationsServer.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Notifications"
+                    AssemblyName = "Notifications"
+                    HintPath = "..\..\..\..\assembly\Notifications\Notifications.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "pt.vodafone.ufe.dobjs.framework.UFEUtils"
+                    AssemblyName = "pt.vodafone.ufe.dobjs.framework.UFEUtils"
+                    HintPath = "..\..\..\..\assembly\ufe\pt.vodafone.ufe.dobjs.framework.UFEUtils.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Utils"
+                    AssemblyName = "Utils"
+                    HintPath = "..\..\..\..\assembly\ufe\Utils.dll"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChessButton.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChessButton.resx"
+                    DependentUpon = "ChessButton.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChessImages.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Fields.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ListboxLogger.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ManualPlayer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
